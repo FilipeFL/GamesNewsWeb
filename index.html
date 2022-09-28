@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>Game Warrior Template</title>
+	<title>Games News</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Game Warrior Template">
-	<meta name="keywords" content="warrior, game, creative, html">
+	<meta name="description" content="Games News">
+	<meta name="keywords" content="news, game, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
@@ -37,10 +35,11 @@
 		<div class="container">
 			<!-- logo -->
 			<a class="site-logo" href="index.html">
-				<img src="img/logo.png" alt="">
+				<img src="img/logo_new.png" alt="">
 			</a>
 			<div class="user-panel">
-				<a href="#">Login</a>  /  <a href="#">Register</a>
+				<input type="text" placeholder="Pesquisar games">
+				<button><i class="fa fa-search"></i></button>
 			</div>
 			<!-- responsive -->
 			<div class="nav-switch">
@@ -49,11 +48,10 @@
 			<!-- site menu -->
 			<nav class="main-menu">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="review.html">Games</a></li>
-					<li><a href="categories.html">Blog</a></li>
-					<li><a href="community.html">Forums</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#hero-section">Destaques</a></li>
+					<li><a href="#recent-game-section">Lançamentos</a></li>
+					<li><a href="#platform-game-section">Plataformas</a></li>
+					<li><a href="#publisher-game-section">Publishers</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -63,22 +61,57 @@
 
 	<!-- Hero section -->
 	<section class="hero-section">
+		<a name="hero-section"</a>
 		<div class="hero-slider owl-carousel">
 			<div class="hs-item set-bg" data-setbg="img/slider-1.jpg">
 				<div class="hs-text">
 					<div class="container">
-						<h2>The Best <span>Games</span> Out There</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada <br> lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. <br>Suspendisse cursus faucibus finibus.</p>
-						<a href="#" class="site-btn">Read More</a>
+						<h2>Horizon <span>Zero</span> Down</h2>
+						<p><span class="bolded">Sobre: </span> Experimente a lendária busca de Aloy para desvendar os mistérios de uma futura Terra governada por Máquinas. Use ataques táticos devastadores contra sua presa e explore um mundo aberto majestoso neste RPG de ação premiado!</p>
+						<p><span class="bolded">Publisher: </span> PlayStation PC LLC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded"> Lançamento: </span> 7 Aug, 2020<span class="bolded"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plataformas: </span> PlayStation 4, PC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded">Gênero: </span> Ação, Aventura, RPG</p>
+						<p><span class="bolded">Avaliação: </span> 93</p>
+						<div class="iframe-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/9axpikOIHEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="hs-item set-bg" data-setbg="img/slider-2.jpg">
 				<div class="hs-text">
 					<div class="container">
-						<h2>The Best <span>Games</span> Out There</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada <br> lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. <br>Suspendisse cursus faucibus finibus.</p>
-						<a href="#" class="site-btn">Read More</a>
+						<h2><span>Overwatch</span></h2>
+						<p><span class="bolded">Sobre: </span> Overwatch é um jogo de ação em equipe que conta com um elenco diversificado de heróis poderosíssimos. Viaje pelo mundo, monte uma equipe e dispute objetivos em combates 6v6 de tirar o fôlego.</p>
+						<p><span class="bolded">Publisher: </span> Blizzard Entertainment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded"> Lançamento: </span> 24 May, 2016<span class="bolded"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plataformas: </span> PlayStation 4, PC, Nintendo Switch, Xbox One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded">Gênero: </span> FPS</p>
+						<p><span class="bolded">Avaliação: </span> 86</p>
+						<div class="iframe-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/1tnYpkt5G2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="img/slider-3.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<h2>The <span>Last</span> of <span>Us</span> Parte <span>I</span></h2>
+						<p><span class="bolded">Sobre: </span> Conheça a história emocionante e os personagens inesquecíveis de The Last of Us, vencedor de mais de 200 prêmios de Jogo do Ano. Em uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta, Joel, um protagonista abatido, é contratado para tirar uma garota de 14 anos, Ellie, de uma zona de quarentena militar. No entanto, o que começa como um pequeno serviço se transforma em uma jornada brutal através do país.</p>
+						<p><span class="bolded">Publisher: </span> Sony Interactive Entertainment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded"> Lançamento: </span> 2 Aug, 2022<span class="bolded"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plataformas: </span> PlayStation 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded">Gênero: </span> Ação</p>
+						<p><span class="bolded">Avaliação: </span> 99</p>
+						<div class="iframe-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/XUoZ1dc6dl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="img/slider-4.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<h2>Fall <span>Guys</span></h2>
+						<p><span class="bolded">Sobre: </span> Fall Guys é um jogo party royale gratuito, multiplataforma e multijogador, no qual você e os outros competidores disputam em rodadas com caos absurdo e crescente em pistas de obstáculos até restar um vencedor sortudo!</p>
+						<p><span class="bolded">Publisher: </span> Epic Games &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded"> Lançamento: </span> 21 Jun, 2022<span class="bolded"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plataformas: </span> PlayStation 4, PC, PlayStation 5, Xbox One, Nintendo Switch &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="bolded">Gênero: </span> Party Game</p>
+						<p><span class="bolded">Avaliação: </span> 95</p>
+						<div class="iframe-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/5EvE0hRNsJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -87,239 +120,212 @@
 	<!-- Hero section end -->
 
 
-	<!-- Latest news section -->
-	<div class="latest-news-section">
-		<div class="ln-title">Latest News</div>
-		<div class="news-ticker">
-			<div class="news-ticker-contant">
-				<div class="nt-item"><span class="new">new</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-				<div class="nt-item"><span class="strategy">strategy</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
-				<div class="nt-item"><span class="racing">racing</span>Isum dolor sit amet, consectetur adipiscing elit. </div>
-			</div>
-		</div>
-	</div>
-	<!-- Latest news section end -->
-
-
-	<!-- Feature section -->
-	<section class="feature-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 p-0">
-					<div class="feature-item set-bg" data-setbg="img/features/1.jpg">
-						<span class="cata new">new</span>
-						<div class="fi-content text-white">
-							<h5><a href="#">Suspendisse ut justo tem por, rutrum</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-							<a href="#" class="fi-comment">3 Comments</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 p-0">
-					<div class="feature-item set-bg" data-setbg="img/features/2.jpg">
-						<span class="cata strategy">strategy</span>
-						<div class="fi-content text-white">
-							<h5><a href="#">Justo tempor, rutrum erat id, molestie</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-							<a href="#" class="fi-comment">3 Comments</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 p-0">
-					<div class="feature-item set-bg" data-setbg="img/features/3.jpg">
-						<span class="cata new">new</span>
-						<div class="fi-content text-white">
-							<h5><a href="#">Nullam lacinia ex eleifend orci porttitor</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-							<a href="#" class="fi-comment">3 Comments</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 p-0">
-					<div class="feature-item set-bg" data-setbg="img/features/4.jpg">
-						<span class="cata racing">racing</span>
-						<div class="fi-content text-white">
-							<h5><a href="#">Lacinia ex eleifend orci suscipit</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-							<a href="#" class="fi-comment">3 Comments</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Feature section end -->
-
-
 	<!-- Recent game section  -->
 	<section class="recent-game-section spad set-bg" data-setbg="img/recent-game-bg.png">
+		<a name="recent-game-section"</a></a>
 		<div class="container">
 			<div class="section-title">
-				<div class="cata new">new</div>
-				<h2>Recent Games</h2>
+				<h2>Lançamentos</h2>
+			</div>
+			<div class= "filter">
+				<form class="community-filter">
+					<select id="fdf5">
+						<option value="#">Gênero: TODOS</option>
+						<option value="#">Gênero: Ação</option>
+						<option value="#">Gênero: RPG</option>
+						<option value="#">Gênero: Indie</option>
+						<option value="#">Gênero: Shooter</option>
+					</select>
+					<select id="fdf6">
+						<option value="#">Ordem: Popularidade</option>
+						<option value="#">Ordem: Tema</option>
+					</select>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<div class="recent-game-item">
 						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/1.jpg">
-							<div class="cata new">new</div>
+							<div class="cata new">87</div>
 						</div>
 						<div class="rgi-content">
-							<h5>Suspendisse ut justo tem por, rutrum</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit. </p>
-							<a href="#" class="comment">3 Comments</a>
-							<div class="rgi-extra">
-								<div class="rgi-star"><img src="img/icons/star.png" alt=""></div>
-								<div class="rgi-heart"><img src="img/icons/heart.png" alt=""></div>
+							<h5>Return to Monkey Island</h5>
+							<div class="iframe-container">
+								<iframe width="320" height="210" src="https://www.youtube.com/embed/FJcokBgKYVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
+							<a href="#" class="comment">Mais detalhes...</a>
 						</div>
 					</div>	
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="recent-game-item">
 						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/2.jpg">
-							<div class="cata racing">racing</div>
+							<div class="cata racing">85</div>
 						</div>
 						<div class="rgi-content">
-							<h5>Susce pulvinar metus nulla, vel  facilisis sem </h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit. </p>
-							<a href="#" class="comment">3 Comments</a>
-							<div class="rgi-extra">
-								<div class="rgi-star"><img src="img/icons/star.png" alt=""></div>
-								<div class="rgi-heart"><img src="img/icons/heart.png" alt=""></div>
+							<h5>The Wandering Village</h5>
+							<div class="iframe-container">
+								<iframe width="320" height="210" src="https://www.youtube.com/embed/5Cgs-WWqadM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
+							<a href="#" class="comment">Mais detalhes...</a>
 						</div>
 					</div>	
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="recent-game-item">
 						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/3.jpg">
-							<div class="cata adventure">Adventure</div>
+							<div class="cata adventure">79</div>
 						</div>
 						<div class="rgi-content">
-							<h5>Suspendisse ut justo tem por, rutrum</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit. </p>
-							<a href="#" class="comment">3 Comments</a>
-							<div class="rgi-extra">
-								<div class="rgi-star"><img src="img/icons/star.png" alt=""></div>
-								<div class="rgi-heart"><img src="img/icons/heart.png" alt=""></div>
+							<h5>Dome Keeper</h5>
+							<div class="iframe-container">
+								<iframe width="320" height="210" src="https://www.youtube.com/embed/qTnGtmh8eTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
+							<a href="#" class="comment">Mais detalhes...</a>
 						</div>
 					</div>	
 				</div>
+			</div>
+			<div class="text-center pt-4">
+				<button class="site-btn btn-sm">Carregar mais lançamentos</button>
 			</div>
 		</div>
 	</section>
 	<!-- Recent game section end -->
 
-
-	<!-- Tournaments section -->
-	<section class="tournaments-section spad">
-		<div class="container">
-			<div class="tournament-title">Tournaments</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="tournament-item mb-4 mb-lg-0">
-						<div class="ti-notic">Premium Tournament</div>
-						<div class="ti-content">
-							<div class="ti-thumb set-bg" data-setbg="img/tournament/1.jpg"></div>
-							<div class="ti-text">
-								<h4>World Of WarCraft</h4>
-								<ul>
-									<li><span>Tournament Beggins:</span> June 20, 2018</li>
-									<li><span>Tounament Ends:</span> July 01, 2018</li>
-									<li><span>Participants:</span> 10 teams</li>
-									<li><span>Tournament Author:</span> Admin</li>
-								</ul>
-								<p><span>Prizes:</span> 1st place $2000, 2nd place: $1000, 3rd place: $500</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="tournament-item">
-						<div class="ti-notic">Premium Tournament</div>
-						<div class="ti-content">
-							<div class="ti-thumb set-bg" data-setbg="img/tournament/2.jpg"></div>
-							<div class="ti-text">
-								<h4>DOOM</h4>
-								<ul>
-									<li><span>Tournament Beggins:</span> June 20, 2018</li>
-									<li><span>Tounament Ends:</span> July 01, 2018</li>
-									<li><span>Participants:</span> 10 teams</li>
-									<li><span>Tournament Author:</span> Admin</li>
-								</ul>
-								<p><span>Prizes:</span> 1st place $2000, 2nd place: $1000, 3rd place: $500</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Tournaments section bg -->
-
-
-	<!-- Review section -->
-	<section class="review-section spad set-bg" data-setbg="img/review-bg.png">
+	
+	<!-- Platforms section -->
+	<section class="platform-game-section spad set-bg" data-setbg="img/review-bg.png">
+		<a name="platform-game-section"</a>
 		<div class="container">
 			<div class="section-title">
-				<div class="cata new">new</div>
-				<h2>Recent Reviews</h2>
+				<h2>Plataformas</h2>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/1.jpg">
-							<div class="score yellow">9.3</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/4.jpg">
 						</div>
-						<div class="review-text">
-							<h5>Assasin’’s Creed</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						<div class="rgi-content">
+							<h5>PC</h5>
+							<p><span class="bolded">Principais Jogos</span></p>
+							<p>
+								<ul>The Witcher</ul>
+								<ul>League of Legends</ul>
+								<ul>DOTA</ul>
+							</p>
+							<a href="#" class="comment">Mais detalhes...</a>
 						</div>
-					</div>
+					</div>	
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/2.jpg">
-							<div class="score purple">9.5</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/5.jpg">
 						</div>
-						<div class="review-text">
-							<h5>Doom</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						<div class="rgi-content">
+							<h5>Playstation</h5>
+							<p><span class="bolded">Principais Jogos</span></p>
+							<p>
+								<ul>The Last of Us</ul>
+								<ul>Uncharted 4</ul>
+								<ul>Death Stranding</ul>
+							</p>
+							<a href="#" class="comment">Mais detalhes...</a>
 						</div>
-					</div>
+					</div>	
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/3.jpg">
-							<div class="score green">9.1</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/6.jpg">
 						</div>
-						<div class="review-text">
-							<h5>Overwatch</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						<div class="rgi-content">
+							<h5>Xbox</h5>
+							<p><span class="bolded">Principais Jogos</span></p>
+							<p>
+								<ul>Halo</ul>
+								<ul>FIFA</ul>
+								<ul>Far Cry 5</ul>
+							</p>
+							<a href="#" class="comment">Mais detalhes...</a>
 						</div>
-					</div>
+					</div>	
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="review-item">
-						<div class="review-cover set-bg" data-setbg="img/review/4.jpg">
-							<div class="score pink">9.7</div>
-						</div>
-						<div class="review-text">
-							<h5>GTA</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
-						</div>
-					</div>
-				</div>
+			</div>
+			<div class="text-center pt-4">
+				<button class="site-btn btn-sm">Carregar mais plataformas</button>
 			</div>
 		</div>
 	</section>
-	<!-- Review section end -->
+	<!-- Platforms section end -->
+	
+	
+	<!-- Publishers section -->
+	<section class="publisher-game-section spad set-bg" data-setbg="img/review-bg-2.jpg">
+		<a name="publisher-game-section"</a></a>
+		<div class="container">
+			<div class="section-title">
+				<h2><font color="#fff">Publishers</font></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/7.jpg">
+						</div>
+						<div class="rgi-content">
+							<h5>Sony</h5>
+							<p><span class="bolded">Principais Jogos</span></p>
+							<p>
+								<ul>The Last of Us</ul>
+								<ul>Uncharted 4</ul>
+								<ul>God of War</ul>
+							</p>
+							<a href="#" class="comment">Mais detalhes...</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/8.jpg">
+						</div>
+						<div class="rgi-content">
+							<h5>Epic Games</h5>
+							<p><span class="bolded">Principais Jogos</span></p>
+							<p>
+								<ul>Fall Guys</ul>
+								<ul>Rocket League</ul>
+								<ul>Fornite</ul>
+							</p>
+							<a href="#" class="comment">Mais detalhes...</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="recent-game-item">
+						<div class="rgi-thumb set-bg" data-setbg="img/recent-game/9.jpg">
+						</div>
+						<div class="rgi-content">
+							<h5>Ubisoft</h5>
+							<p><span class="bolded">Principais Jogos</span></p>
+							<p>
+								<ul>Assassin’s Creed: Origins</ul>
+								<ul>Rayman Origins</ul>
+								<ul>Far Cry 5</ul>
+							</p>
+							<a href="#" class="comment">Mais detalhes...</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="text-center pt-4">
+				<button class="site-btn btn-sm">Carregar mais publishers</button>
+			</div>
+		</div>
+	</section>
+	<!-- Publishers section end -->
 
 
 	<!-- Footer top section -->
 	<section class="footer-top-section">
+		<a name="footer-top-section"</a></a>
 		<div class="container">
 			<div class="footer-top-bg">
 				<img src="img/footer-top-bg.png" alt="">
@@ -327,73 +333,45 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="footer-logo text-white">
-						<img src="img/footer-logo.png" alt="">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						<img src="img/logo_new.png" alt="">
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget mb-5 mb-md-0">
-						<h4 class="fw-title">Latest Posts</h4>
-						<div class="latest-blog">
-							<div class="lb-item">
-								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/1.jpg"></div>
-								<div class="lb-content">
-									<div class="lb-date">June 21, 2018</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
-									<a href="#" class="lb-author">By Admin</a>
-								</div>
-							</div>
-							<div class="lb-item">
-								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/2.jpg"></div>
-								<div class="lb-content">
-									<div class="lb-date">June 21, 2018</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
-									<a href="#" class="lb-author">By Admin</a>
-								</div>
-							</div>
-							<div class="lb-item">
-								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/3.jpg"></div>
-								<div class="lb-content">
-									<div class="lb-date">June 21, 2018</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
-									<a href="#" class="lb-author">By Admin</a>
-								</div>
-							</div>
-						</div>
+						<h4><font color="#fff">Sobre</font></h4>
+						<p>Esse é um site template de notícias de jogos para gamers feito com o intuito de atestar conhecimentos em html e css na disciplina de Desenvolvimento de Interfaces Web ofertada pela PUC-MG.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-widget">
-						<h4 class="fw-title">Top Comments</h4>
+						<h4 class="fw-title">Editorial</h4>
 						<div class="top-comment">
 							<div class="tc-item">
 								<div class="tc-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
 								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
+									<p><a href="#">Filipe Fonseca Lacerda</a> <span>na</span>  Redação</p>
 								</div>
 							</div>
 							<div class="tc-item">
-								<div class="tc-thumb set-bg" data-setbg="img/authors/2.jpg"></div>
+								<div class="tc-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
 								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
+									<p><a href="#">Filipe Fonseca Lacerda</a> <span>na</span>  Pesquisa</p>
 								</div>
 							</div>
 							<div class="tc-item">
-								<div class="tc-thumb set-bg" data-setbg="img/authors/3.jpg"></div>
+								<div class="tc-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
 								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
+									<p><a href="#">Filipe Fonseca Lacerda</a> <span>como</span>  Gerente Geral</p>
 								</div>
 							</div>
-							<div class="tc-item">
-								<div class="tc-thumb set-bg" data-setbg="img/authors/4.jpg"></div>
-								<div class="tc-content">
-									<p><a href="#">James Smith</a> <span>on</span>  Lorem ipsum dolor sit amet, co</p>
-									<div class="tc-date">June 21, 2018</div>
-								</div>
-							</div>
+						</div>
+						<div class="social-links">
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 				</div>
@@ -405,18 +383,18 @@
 	
 	<!-- Footer section -->
 	<footer class="footer-section">
+		<a name="footer-section"</a></a>
 		<div class="container">
-			<ul class="footer-menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="review.html">Games</a></li>
-				<li><a href="categories.html">Blog</a></li>
-				<li><a href="community.html">Forums</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-			<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
+			<p class="copyright">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			</p>
+			<div class="footer-logo-end">
+				<div class="footer-logo text-white">
+					<img src="img/logo_new.png" alt="">
+				</div>
+			</div>
 		</div>
 	</footer>
 	<!-- Footer section end -->

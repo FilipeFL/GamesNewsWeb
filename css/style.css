@@ -132,29 +132,6 @@ ol {
 -----------------------*/
 
 /* buttons */
-.site-btn {
-	display: inline-block;
-	text-align: center;
-	font-size: 15px;
-	color: #131313;
-	padding: 16px 30px;
-	min-width: 153px;
-	border-radius: 50px;
-	font-weight: 500;
-	border: none;
-	background: #ffb320;
-	cursor: pointer;
-}
-
-.site-btn.btn-sm {
-	padding: 10px 30px;
-	min-width: 163px;
-}
-
-.site-btn:hover {
-	color: #131313;
-}
-
 .cata {
 	display: inline-block;
 	text-transform: uppercase;
@@ -178,6 +155,16 @@ ol {
 
 .cata.adventure {
 	background: #40abf5;
+}
+
+.site-btn {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	color: #fff;
+	padding: 6px 25px;
+	background: #ff205f;
 }
 
 /* Preloder */
@@ -263,20 +250,19 @@ ol {
 
 .user-panel {
 	float: right;
-	font-weight: 500;
-	background: #ffb320;
-	padding: 8px 28px;
-	border-radius: 30px;
+	font-weight: 5;
+	padding: 4px;
+	border-radius: 5px;
 }
 
 .user-panel a {
-	font-size: 14px;
+	font-size: 5px;
 	color: #131313;
 }
 
 .main-menu {
 	float: right;
-	margin-right: 170px;
+	margin-right: 50px;
 }
 
 .main-menu ul {
@@ -347,15 +333,8 @@ ol {
 	opacity: 0;
 }
 
-.hero-slider .hs-text .site-btn {
-	position: relative;
-	top: -100px;
-	opacity: 0;
-}
-
 .hero-slider .owl-item.active .hs-item h2,
-.hero-slider .owl-item.active .hs-item p,
-.hero-slider .owl-item.active .hs-item .site-btn {
+.hero-slider .owl-item.active .hs-item p {
 	top: 0;
 	opacity: 1;
 }
@@ -370,12 +349,6 @@ ol {
 	-webkit-transition: all 0.5s ease 0.8s;
 	-o-transition: all 0.5s ease 0.8s;
 	transition: all 0.5s ease 0.8s;
-}
-
-.hero-slider .owl-item.active .hs-item .site-btn {
-	-webkit-transition: all 0.5s ease 0.6s;
-	-o-transition: all 0.5s ease 0.6s;
-	transition: all 0.5s ease 0.6s;
 }
 
 .hero-slider .owl-dots {
@@ -403,113 +376,8 @@ ol {
 	background: #ffb320;
 }
 
-/*---------------------
-  Latest News section
------------------------*/
-
-.latest-news-section {
-	overflow: hidden;
-	display: block;
-	clear: both;
-	background: #131313;
-	padding: 24px 0;
-	position: relative;
-}
-
-.ln-title {
-	position: absolute;
-	height: 100%;
-	width: 29%;
-	left: 0;
-	top: 0;
-	text-align: right;
-	padding-top: 24px;
-	padding-right: 66px;
-	font-size: 18px;
-	font-weight: 500;
-	color: #fff;
-	background: #ffb320;
-	z-index: 1;
-}
-
-.news-ticker {
-	width: 71%;
-	float: right;
-	overflow: hidden;
-	display: inline-block;
-}
-
-.news-ticker-contant .nt-item {
-	margin-right: 35px;
-	color: #fff;
-	display: inline-block;
-}
-
-.news-ticker-contant .nt-item span {
-	margin-right: 35px;
-	display: inline-block;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: 500;
-	color: #fff;
-	padding: 4px 20px;
-}
-
-.news-ticker-contant .nt-item span.new {
-	background: #ff205f;
-}
-
-.news-ticker-contant .nt-item span.strategy {
-	background: #4eae60;
-}
-
-.news-ticker-contant .nt-item span.racing {
-	background: #694eae;
-}
-
-/*------------------
-  Feature Section
----------------------*/
-
-.feature-item {
-	height: 415px;
-	position: relative;
-}
-
-.feature-item:after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background: #000;
-	opacity: .65;
-}
-
-.feature-item .cata {
-	position: relative;
-	margin-top: 28px;
-	margin-left: 29px;
-	z-index: 3;
-}
-
-.feature-item .fi-content {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	bottom: 0;
-	padding: 0 26px 24px;
-	z-index: 2;
-}
-
-.feature-item .fi-content h5 {
-	margin-bottom: 18px;
-}
-
-.feature-item .fi-content .fi-comment {
-	font-size: 12px;
-	opacity: .54;
+.bolded { 
+	font-weight: bold; 
 }
 
 /*----------------------
@@ -569,82 +437,17 @@ ol {
 	background: #ff205f;
 }
 
-/*----------------------
-  Tournaments Section
-------------------------*/
-
-.tournaments-section {
-	background-image: url("../img/pattern.png");
-	background-repeat: repeat;
+.filter {
+	margin-bottom: 80px;
 }
 
-.tournament-title {
-	display: inline-block;
-	padding: 7px 25px;
-	font-size: 12px;
+.community-filter select {
+	width: 180px;
+	height: 42px;
+	font-size: 14px;
+	padding: 5px;
+	color: #1f2225;
 	font-weight: 500;
-	color: #fff;
-	text-transform: uppercase;
-	background: #fb6e10;
-}
-
-.tournament-item {
-	background: #252525;
-}
-
-.tournament-item .ti-notic {
-	display: inline-block;
-	padding: 8px 21px;
-	font-size: 12px;
-	font-weight: 700;
-	color: #131313;
-	text-transform: uppercase;
-	background: #ffb320;
-}
-
-.tournament-item .ti-content {
-	padding: 38px 24px;
-	overflow: hidden;
-}
-
-.tournament-item .ti-thumb {
-	width: 168px;
-	height: 178px;
-	float: left;
-}
-
-.tournament-item .ti-text {
-	padding-left: 195px;
-}
-
-.tournament-item .ti-text h4 {
-	color: #ffb320;
-	margin-bottom: 20px;
-}
-
-.tournament-item .ti-text ul {
-	list-style: none;
-	margin-bottom: 20px;
-}
-
-.tournament-item .ti-text ul li {
-	color: #fff;
-	font-size: 12px;
-	margin-bottom: 6px;
-}
-
-.tournament-item .ti-text ul li span {
-	color: #9a9a9a;
-}
-
-.tournament-item .ti-text p {
-	font-size: 12px;
-	margin-bottom: 0;
-}
-
-.tournament-item .ti-text p span {
-	font-weight: 500;
-	color: #ffb320;
 }
 
 /*----------------------
@@ -1199,7 +1002,7 @@ ol {
 	padding-right: 10px;
 }
 
-.community-filter select {
+/*.community-filter select {
 	width: 201px;
 	height: 42px;
 	font-size: 14px;
@@ -1259,6 +1062,21 @@ ol {
 	}
 }
 
+.iframe-container{
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.iframe-container iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1289,6 +1107,12 @@ ol {
 	}
 	.page-info-section .pi-content h2 {
 		font-size: 50px;
+	}
+	.social-links a {
+		color: #474747;
+		font-size: 16px;
+		margin-left: 10px;
+		margin-right: 20px;
 	}
 }
 
@@ -1490,10 +1314,6 @@ ol {
 	}
 	.top-comment .tc-item .tc-content {
 		padding-left: 85px;
-	}
-	.site-btn {
-		padding: 11px 30px;
-		min-width: 145px;
 	}
 	.comment-list .comment .comment-avator {
 		float: none;
